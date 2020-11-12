@@ -1,0 +1,17 @@
+/**************************/
+/*     Custom Styles      */
+/**************************/
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.btn-inline {
+	/* color: #f1f1f8; */
+  /* text-decoration: none; */
+  transition: all 0.2s ease;
+}
+
+.btn-inline:hover {
+  color: #00c9db;
+}
