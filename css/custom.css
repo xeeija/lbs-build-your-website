@@ -16,6 +16,14 @@
   color: #00c9db;
 }
 
+.center {
+  text-align: center;
+}
+
+.slider-1 {
+  padding: 5rem 0;
+}
+
 /* Highlight.js */
 .hljs {
   padding: 0;
