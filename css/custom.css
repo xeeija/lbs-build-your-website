@@ -20,8 +20,23 @@
   text-align: center;
 }
 
-.slider-1 {
+/* .slider-1 {
   padding: 5rem 0;
+} */
+
+.fa-lg .fas {
+	font-size: 0.875rem !important;
+	line-height: 1.75rem;
+}
+
+.media-body {
+  font-size: initial;
+  line-height: 1.75rem;
+}
+
+.navbar .logo-image img {
+  width: auto;
+  height: 2.5rem;
 }
 
 /* Highlight.js */

@@ -25,7 +25,7 @@
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
@@ -38,7 +38,7 @@
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
+            <a class="navbar-brand logo-image" href="#fixed-top"><img src="images/logo_fh_2_color.svg" alt="alternative"></a>
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
@@ -118,11 +118,26 @@
                         HTML/CSS will do just fine and a little bit of image editing. You can always hire a web designer to help
                         with the customization work while you provide the template and the content that is the most important.
                     </p>
-                    <p class="mb-5">
+                    <p class="mb-4">
                         Riga is a landing page HTML template made with Bootstrap to help you showcase your mobile app
                         online and persuade visitors to download it from the app stores. The author used Bootstrap to build the
                         template and integrated a nice animated navigation that slides from outside the screen.
                     </p>
+
+                    <ul class="list-unstyled li-space-lg fa-lg pb-4">
+                        <li class="media">
+                            <i class="fas fa-check"></i>
+                            <div class="media-body">Splash screen panel</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i>
+                            <div class="media-body">Statistics graph report</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i>
+                            <div class="media-body">Events calendar layout</div>
+                        </li>
+                    </ul>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -131,7 +146,7 @@
 
 
     <!-- Cards -->
-    <div class="ex-cards-1 pb-4">
+    <div class="ex-cards-1 pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -195,24 +210,14 @@
     </div> <!-- end of ex-cards-1 -->
     <!-- end of cards -->
 
-<!-- Testimonals Heading -->
-<div class="ex-basic-1 pt-5">
-    <div class="container">
-        <div class="row">
-
-        </div> <!-- end of row -->
-    </div>
-</div>
-
-
  <!-- Testimonials -->
- <div class="slider-1 bg-dark-blue">
+ <div class="slider-1 bg-dark-blue" id="history">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
 
                 <div class="col-lg-12 mb-5 center">
-                    <h2 class="uppercase">History</h2>
+                    <h2 class="uppercase">History - What it was like</h2>
                     <hr class="hr-heading">
 
                     <div class="p-heading">How the world wide web devoloped over the years.</div>
@@ -386,14 +391,13 @@
 
 
     <!-- Features -->
-    <div class="tabs">
+    <div class="tabs" id="html-css">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="uppercase">Website Building Basics</h2>
                     <div class="p-heading">
-                        Every website uses the HTML (Hypertext Markup Language) and CSS (Cascading Style Sheet) for their structure
-                        and layout respectively.<br>
+                        Every website uses the HTML (Hypertext Markup Language) and CSS (Cascading Style Sheet) for their structure and layout respectively.<br>
                         Most of them also use JavaScript to implement functionaly into the page.
                     </div>
                 </div> <!-- end of col -->
@@ -713,8 +717,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="h2-heading">PREVIEW</h2>
-                    <div class="p-heading">It's time to target the right customers for your business with the help of Leno's
-                        patented user tracking and segmentation technology</div>
+                    <div class="p-heading">It's time to target the right customers for your business with the help of Leno</div>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -740,7 +743,7 @@
     <!-- end of video -->
 
     <!-- Details 1 -->
-    <div class="basic-2 bg-dark-blue">
+    <div class="basic-2 bg-dark-blue" id="cms">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -762,7 +765,7 @@
     <!-- end of details 1 -->
 
     <!-- Basic -->
-    <div class="ex-basic-1 pt-5">
+    <div class="ex-basic-1 pt-5" id="future">
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1">
@@ -950,6 +953,7 @@
                             Recommended Templates section, introduced to help users browse templates easier and increase conversions.
                         </p>
                     </div> <!-- end of text-box -->
+
                     <p class="mb-4">Besides product pages I've upgraded the homepage too, first with category pages for essential
                         landing page subjects and second with a new way of purchasing Inovatik templates. Up until now the user had
                         the option to acquire templates individually but now he can get them all together in a huge value special
