@@ -3,7 +3,6 @@
    Description: Custom JS file
 */
 
-
 (function($) {
     "use strict"; 
 	
@@ -66,10 +65,11 @@
     /* Card Slider - Swiper */
 	var cardSlider = new Swiper('.card-slider', {
 		autoplay: {
-            delay: 4000,
+            delay: 60000,
             disableOnInteraction: false
-		},
-        loop: true,
+        },
+        //autoplay = false,
+        loop: false,
         navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev'
@@ -313,6 +313,9 @@
 	/* Removes Long Focus On Buttons */
 	$(".button, a, button").mouseup(function() {
 		$(this).blur();
-	});
+    });
+    
+    /* Highliting.js */
+    hljs.initHighlightingOnLoad();
 
 })(jQuery);

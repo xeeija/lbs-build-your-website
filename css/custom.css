@@ -15,3 +15,8 @@
 .btn-inline:hover {
   color: #00c9db;
 }
+
+/* Highlight.js */
+.hljs {
+  padding: 0;
+}
