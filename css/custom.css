@@ -29,7 +29,8 @@
 } */
 
 .ex-basic-1 .list-unstyled .fas, 
-.text-container .list-unstyled .fas {
+.text-container .list-unstyled .fas,
+.basic-3 .list-unstyled .fas {
 	font-size: inherit;
 }
 
