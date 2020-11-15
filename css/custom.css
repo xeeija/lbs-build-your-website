@@ -43,3 +43,9 @@
 .hljs {
   padding: 0;
 }
+
+.counter #counter .fab, .counter #counter .far {
+	margin-bottom: 1rem;
+	font-size: 2.25rem;
+	color: #00c9db;
+}
