@@ -28,7 +28,8 @@
   padding: 5rem 0;
 } */
 
-.ex-basic-1 .list-unstyled .fas {
+.ex-basic-1 .list-unstyled .fas, 
+.text-container .list-unstyled .fas {
 	font-size: inherit;
 }
 
