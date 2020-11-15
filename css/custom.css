@@ -16,22 +16,20 @@
   color: #00c9db;
 }
 
-.center {
+.align-center {
   text-align: center;
+}
+
+.align-right {
+  text-align: right;
 }
 
 /* .slider-1 {
   padding: 5rem 0;
 } */
 
-.fa-lg .fas {
-	font-size: 0.875rem !important;
-	line-height: 1.75rem;
-}
-
-.media-body {
-  font-size: initial;
-  line-height: 1.75rem;
+.ex-basic-1 .list-unstyled .fas {
+	font-size: inherit;
 }
 
 .navbar .logo-image img {
