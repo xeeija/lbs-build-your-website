@@ -29,9 +29,14 @@
 } */
 
 .ex-basic-1 .list-unstyled .fas, 
-.text-container .list-unstyled .fas,
 .basic-3 .list-unstyled .fas {
 	font-size: inherit;
+}
+
+.ex-basic-1 .list-unstyled .media-body, 
+.basic-3 .list-unstyled .media-body {
+  font-size: initial;
+  line-height: 1.875rem;
 }
 
 .navbar .logo-image img {
